@@ -14,4 +14,4 @@ Logistic regression is a well-suited algorithm for binary classification problem
 
 ## License
 
-This project includes data originally provided by IBM, available in their [GitHub repository](https://github.com/IBM/telco-customer-churn-on-icp4d). The dataset is used here under the terms of the [LICENSE](./LICENSE) provided in the original repository.
+This project includes data originally provided by IBM, available in their [GitHub repository](https://github.com/IBM/telco-customer-churn-on-icp4d). The dataset is used here under the terms of the [Apache License 2.0](./LICENSE) provided in the original repository.
