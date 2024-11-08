@@ -10,7 +10,7 @@ Logistic regression is a well-suited algorithm for binary classification problem
 
 ## Data Used
 
-- The Telco sutomer churn dataset for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data) and includes information about Services that each customer has signed up for, Customer account information and Demographic info about customers. Each row represents a customer, and each column contains an attribute. The dataset consists of 7,043 customer records, each with 20 features, along with data on whether the customer churned within the last month.
+- The Telco customer churn dataset for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data) and includes information about Services that each customer has signed up for, Customer account information and Demographic info about customers. Each row represents a customer, and each column contains an attribute. The dataset consists of 7,043 customer records, each with 20 features, along with data on whether the customer churned within the last month.
 
 | Column number| Column name | Type | Description |
 |:----------|:----------|:----------|:----------|
