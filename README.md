@@ -10,7 +10,7 @@ Logistic regression is a well-suited algorithm for binary classification problem
 
 ## Data Used
 
-- 'WA_Fn-UseC_-Telco-Customer-Churn.csv': The dataset for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data). This dataset contains house sale prices for King County, which includes Seattle. The King County housing data was collected from May 2014 to May 2015.
+- The Telco sutomer churn dataset for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data) and includes information about Services that each customer has signed up for, Customer account information and Demographic info about customers. Each row represents a customer, and each column contains an attribute. The dataset consists of 7,043 customer records, each with 20 features, along with data on whether the customer churned within the last month.
 
 | Column number| Column name | Type | Description |
 |:----------|:----------|:----------|:----------|
@@ -35,6 +35,15 @@ Logistic regression is a well-suited algorithm for binary classification problem
 |18   | MonthlyCharges   | Numerical   | The amount charged to the customer monthly   |
 |19   | TotalCharges   | Numerical   | The total amount charged to the customer   |
 |20   | Churn   | Categorical   | Whether the customer churned or not (Yes or No)   |
+
+## Objectives
+
+- Analyze the dataset and understand its features.
+- Clean and preprocess the data for modeling.
+- Perform feature engineering to enhance predictive power.
+- Apply logistic regression to classify customer churn.
+- Optimize logistic regression model parameters.
+- Interpret the model’s results and insights.
 
 ## License
 
