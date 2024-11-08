@@ -12,6 +12,30 @@ Logistic regression is a well-suited algorithm for binary classification problem
 
 - 'WA_Fn-UseC_-Telco-Customer-Churn.csv': The dataset for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data). This dataset contains house sale prices for King County, which includes Seattle. The King County housing data was collected from May 2014 to May 2015.
 
+| Column number| Column name | Type | Description |
+|:----------|:----------|:----------|:----------|
+|0   | customerID   | Categorical   | customerID   |
+|1   | gender   | Categorical   | Whether the customer is a male or a female   |
+|2   | SeniorCitizen   | Categorical   | Whether the customer is a senior citizen or not (1, 0)   |
+|3   | Partner   | Categorical   | Whether the customer has a partner or not (Yes, No)   |
+|4   | Dependents   | Categorical   | Whether the customer has dependents or not (Yes, No)   |
+|5   | tenure   | Numerical   | Number of months the customer has stayed with the company   |
+|6   | PhoneService   | Categorical   | Whether the customer has a phone service or not (Yes, No)   |
+|7   | MultipleLines   | Categorical   | Whether the customer has multiple lines or not (Yes, No, No phone service)   |
+|8   | InternetService   | Categorical   | Customer’s internet service provider (DSL, Fiber optic, No)   |
+|9   | OnlineSecurity   | Categorical   | Whether the customer has online security or not (Yes, No, No internet service)   |
+|10   | OnlineBackup   | Categorical   | Whether the customer has online backup or not (Yes, No, No internet service)   |
+|11   | DeviceProtection   | Categorical   | Whether the customer has device protection or not (Yes, No, No internet service)   |
+|12   | TechSupport   | Categorical   | Whether the customer has tech support or not (Yes, No, No internet service)   |
+|13   | StreamingTV   | Categorical   | Whether the customer has streaming TV or not (Yes, No, No internet service)   |
+|14   | StreamingMovies   | Categorical   | Whether the customer has streaming movies or not (Yes, No, No internet service)   |
+|15   | Contract   | Categorical   | The contract term of the customer (Month-to-month, One year, Two year)   |
+|16   | PaperlessBilling   | Categorical   | Whether the customer has paperless billing or not (Yes, No)   |
+|17   | PaymentMethod   | Categorical   | The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card    |
+|18   | MonthlyCharges   | Numerical   | The amount charged to the customer monthly   |
+|19   | TotalCharges   | Numerical   | The total amount charged to the customer   |
+|20   | Churn   | Categorical   | Whether the customer churned or not (Yes or No)   |
+
 ## License
 
 This project includes data originally provided by IBM, available in their [GitHub repository](https://github.com/IBM/telco-customer-churn-on-icp4d). The dataset is used here under the terms of the [Apache License 2.0](./LICENSE) provided in the original repository.
